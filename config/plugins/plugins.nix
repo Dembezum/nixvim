@@ -86,7 +86,7 @@
     };
     copilot-lua = {
       enable = true;
-      filestypes = {
+      filetypes = {
         markdown = true;
         c = true;
         yaml = true;

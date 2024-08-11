@@ -15,7 +15,7 @@
     ./luasnip
     ./markdown-preview
     ./neo-tree
-    #    ./neorg
+#    ./neorg
     ./notify
     ./nvim-autopairs
     ./nvim-colorizer

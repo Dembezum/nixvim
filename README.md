@@ -32,10 +32,7 @@ Each plugin, option, and keymap is configured in its respective `default.nix` fi
 Simply make the changes and rebuild your flake to apply the new configuration.
 
 ## Keybindings Overview
-
 Here are some of the most important keybindings configured in this setup:
-
-## Keybindings Overview
 
 <details>
   <summary>#### Navigation and Search</summary>

@@ -56,6 +56,24 @@
         theme = "dark";
       };
     };
+    copilot-lua = {
+      enable = true;
+      yaml = false;
+      c = true;
+      zig = true;
+      python = true;
+      rust = true;
+      go = true;
+      javascript = true;
+      typescript = true;
+      markdown = true;
+      help = false;
+      gitcommit = false;
+      gitrebase = false;
+      hgcommit = false;
+      svn = false;
+      cvs = false;
+    };
     indent-blankline = {
       enable = true;
       settings = {

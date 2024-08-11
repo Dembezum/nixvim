@@ -32,10 +32,11 @@ Each plugin, option, and keymap is configured in its respective `default.nix` fi
 Simply make the changes and rebuild your flake to apply the new configuration.
 
 ## Keybindings Overview
+
 Here are some of the most important keybindings configured in this setup:
 
 <details>
-  <summary>#### Navigation and Search</summary>
+  <summary>Navigation and Search</summary>
 
 - `n`         -- Next search result and center
 - `N`         -- Previous search result and center
@@ -45,7 +46,7 @@ Here are some of the most important keybindings configured in this setup:
 </details>
 
 <details>
-  <summary>#### File and Buffer Management</summary>
+  <summary>File and Buffer Management</summary>
 
 - `Space + n`   -- Toggle Neotree (File Explorer)
 - `Space + pf` -- Telescope find files
@@ -57,7 +58,7 @@ Here are some of the most important keybindings configured in this setup:
 </details>
 
 <details>
-  <summary>#### Code Editing</summary>
+  <summary>Code Editing</summary>
 
 - `Space + =`  -- Format code (Neoformat)
 - `Space + r`  -- Run selected code (SnipRun)
@@ -73,7 +74,7 @@ Below is a list of all the plugins included in this configuration. Each plugin
 is managed in its own module under the `config/plugins/` directory.
 
 <details>
-  <summary>### List of Plugins</summary>
+  <summary>List of Plugins</summary>
 
 - [**alpha**](https://github.com/goolord/alpha-nvim): A Neovim startup screen.
 - [**bufferline**](https://github.com/akinsho/bufferline.nvim): Displays a buffer line with tabs at the top of the editor.

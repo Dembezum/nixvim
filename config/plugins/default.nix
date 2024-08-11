@@ -1,6 +1,35 @@
 {
-  imports = [ 
-  ./plugins.nix
+  imports = [
+    ./aplha
+    ./bufferline
+    ./catppuccin
+    ./clangd-extensions
+    ./cmp
+    ./colorscheme
+    ./comment
+    ./conform
+    ./copilot-lua
+    ./diffview
+    ./friendly-snippets
+    ./git
+    ./harpoon
+    ./indent-blankline
+    ./lualine
+    ./luasnip
+    ./markdown-preview
+    ./neo-tree
+    ./neorg
+    ./notify
+    ./nvim-autopairs
+    ./nvim-colorizer
+    ./screenkey
+    ./surround
+    ./telescope
+    ./treesitter
+    ./trouble
+    ./twilight
+    ./undotree
+    ./vim-css-color
+    ./which-key
   ];
 }
-

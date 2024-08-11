@@ -18,7 +18,7 @@ in {
     cmdheight = 1;
     colorcolumn = "80";
     cursorline = true;
-   # expandtab = true;
+    # expandtab = true;
     updatetime = 100;
     foldenable = true;
     splitbelow = true;
@@ -51,6 +51,8 @@ in {
   # extraPlugins to add that are not availble in nixvim repo... u can configure them using lua....(which  i don't do)
 
   extraPlugins = with pkgs.vimPlugins; [
+    screenkey
+    slop
     neoformat
     vim-test
     vimux
@@ -59,7 +61,7 @@ in {
     neorg
     neorg-telescope
   ];
-#  extraConfigLua = builtins.readFile ./config.lua;
+  #  extraConfigLua = builtins.readFile ./config.lua;
 
   # extraConfigLuaPost =
   #   # lua

@@ -84,6 +84,22 @@
         };
       };
     };
+    undotree = {
+      enable = true;
+      settings = {
+        autoOpenDiff = true;
+        focusOnToggle = true;
+      };
+    };
+    keymaps = [{
+      mode = "n";
+      key = "<leader>ut";
+      action = "<cmd>UndotreeToggle<CR>";
+      options = {
+        silent = true;
+        desc = "Undotree";
+      };
+    }];
     copilot-lua = {
       enable = true;
       filetypes = {
@@ -158,21 +174,5 @@
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
     };
-		undotree = {
-			enable = true;
-			settings = {
-				autoOpenDiff = true;
-				focusOnToggle = true;
-			};
-		};
-		keymaps = [{
-			mode = "n";
-			key = "<leader>ut";
-			action = "<cmd>UndotreeToggle<CR>";
-			options = {
-				silent = true;
-				desc = "Undotree";
-			};
-		}];
   };
 }

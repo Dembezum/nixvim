@@ -1,6 +1,6 @@
 {
   imports = [
-    ./aplha
+    ./alpha
     ./bufferline
     ./catppuccin
     ./clangd-extensions

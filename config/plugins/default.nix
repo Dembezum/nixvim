@@ -5,24 +5,20 @@
     ./catppuccin
     ./clangd-extensions
     ./cmp
-    ./colorscheme
     ./comment
-    ./conform
     ./copilot-lua
     ./diffview
     ./friendly-snippets
-    ./git
     ./harpoon
     ./indent-blankline
     ./lualine
     ./luasnip
     ./markdown-preview
     ./neo-tree
-    ./neorg
+#    ./neorg
     ./notify
     ./nvim-autopairs
     ./nvim-colorizer
-    ./screenkey
     ./surround
     ./telescope
     ./treesitter

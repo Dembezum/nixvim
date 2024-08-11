@@ -4,11 +4,11 @@ in {
   imports = [ ];
   wrapRc = true;
   enableMan = true;
-  colorschemes.catppuccin = {
-    enable = true;
-    settings = { flavour = "mocha"; };
-    # transparentBackground = true;
-  };
+		#  colorschemes.catppuccin = {
+		#    enable = true;
+		#    settings = { flavour = "mocha"; };
+		#    # transparentBackground = true;
+		#  };
   opts = {
     number = true; # Show line numbers
     relativenumber = true; # Show relative line numbers
@@ -51,8 +51,6 @@ in {
   # extraPlugins to add that are not availble in nixvim repo... u can configure them using lua....(which  i don't do)
 
   extraPlugins = with pkgs.vimPlugins; [
-    screenkey
-    slop
     neoformat
     vim-test
     vimux

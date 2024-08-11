@@ -1,11 +1,8 @@
 {
-	# catppuccin configuration
-
-	plugins = {
-	  catppuccin = {
-		enable = true;
-	};
-};
-
+  # catppuccin configuration
+  colorschemes.catppuccin = {
+    enable = true;
+    settings = { flavour = "mocha"; };
+    # transparentBackground = true;
+  };
 }
-

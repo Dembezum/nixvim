@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{
 
   plugins = {
     clangd-extensions.enable = true;
@@ -14,13 +14,21 @@
         };
         jsonls.enable = true;
         lua-ls.enable = true;
-        zls.enable = true;
         pyright.enable = true;
         bashls.enable = true;
+        cssls.enable = true;
+        marksman.enable = true;
+        zls.enable = true;
         clangd = {
           enable = true;
           autostart = true;
         };
+        rust-analyzer = {
+          enable = true;
+          installRustc = true;
+          installCargo = true;
+        };
+
       };
 
       keymaps.lspBuf = {
@@ -33,4 +41,3 @@
     };
   };
 }
-

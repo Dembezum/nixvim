@@ -4,6 +4,7 @@
   plugins = {
     copilot-lua = {
       enable = true;
+      panel.enabled = false;
       filetypes = {
         markdown = true;
         c = true;
@@ -12,6 +13,10 @@
         nix = true;
         "." = false;
       };
+    };
+    copilot-chat = {
+      enable = true;
+
     };
   };
 

@@ -1,6 +1,7 @@
 {
   imports = [
     ./alpha
+    ./lazygit
     ./bufferline
     ./style
     ./clangd-extensions

@@ -1,14 +1,17 @@
-{ pkgs, ... }:
-let
-in {
-  imports = [ ];
+{ pkgs, ... }: {
+  imports = [ ../plugins/style ];
+
+  colorschemes = {
+    enable = true;
+    selected = "catppuccin";
+  };
+
   wrapRc = true;
   enableMan = true;
-		#  colorschemes.catppuccin = {
-		#    enable = true;
-		#    settings = { flavour = "mocha"; };
-		#    # transparentBackground = true;
-		#  };
+  #  colorschemes.catppuccin = {
+  #    enable = true;
+  #    # transparentBackground = true;
+  #  };
   opts = {
     number = true; # Show line numbers
     relativenumber = true; # Show relative line numbers
@@ -18,9 +21,9 @@ in {
     cmdheight = 1;
     colorcolumn = "80";
     cursorline = true;
-    # expandtab = true;
+    expandtab = true;
     updatetime = 100;
-    foldenable = true;
+    foldenable = false;
     splitbelow = true;
     splitright = true;
     foldexpr = "nvim_treesitter#foldexpr()";
@@ -47,8 +50,6 @@ in {
     virtualedit = "block";
     inccommand = "split";
   };
-
-  # extraPlugins to add that are not availble in nixvim repo... u can configure them using lua....(which  i don't do)
 
   extraPlugins = with pkgs.vimPlugins; [
     neoformat

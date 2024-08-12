@@ -4,7 +4,8 @@
   plugins = {
     copilot-lua = {
       enable = true;
-      panel.enabled = false;
+      suggestion.enabled = false;
+	      panel.enabled = false;
       filetypes = {
         markdown = true;
         c = true;

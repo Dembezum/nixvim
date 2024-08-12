@@ -2,6 +2,7 @@
   imports = [
     ./alpha
     ./lazygit
+    ./toggleterm
     ./bufferline
     ./style
     ./clangd-extensions

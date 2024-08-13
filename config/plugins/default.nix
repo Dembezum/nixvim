@@ -3,7 +3,6 @@
     ./alpha
     ./glow
     ./lazygit
-    ./toggleterm
     ./bufferline
     ./style
     ./clangd-extensions
@@ -18,7 +17,8 @@
     ./luasnip
     ./markdown-preview
     ./neo-tree
-    #    ./neorg
+    #./neorg
+    ./nix
     ./notify
     ./nvim-autopairs
     ./nvim-colorizer

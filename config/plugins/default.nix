@@ -1,6 +1,7 @@
 {
   imports = [
     ./alpha
+    ./glow
     ./lazygit
     ./toggleterm
     ./bufferline

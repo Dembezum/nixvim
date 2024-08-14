@@ -3,7 +3,7 @@
 
   colorschemes = {
     enable = true;
-    selected = "catppuccin";
+    selected = "cyberdream";
   };
 
   wrapRc = true;
@@ -30,21 +30,16 @@
     foldlevel = 5;
     foldmethod = "expr";
     ignorecase = true;
-    # laststatus = 3;
     mouse = "a";
-    # pumheight = 0;
     shiftwidth = 4;
     showtabline = 1;
     signcolumn = "yes";
-    # smartcase = true;
+    smartcase = true;
     tabstop = 4;
     termguicolors = true;
-    # timeoutlen = 300;
-    undofile = true;
+    undofile = false;
     swapfile = false;
-    # updatetime = 300;
-    # wrap = false;
-    # writebackup = true;
+    wrap = true;
     clipboard = "unnamedplus";
     scrolloff = 999;
     virtualedit = "block";

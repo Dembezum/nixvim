@@ -5,7 +5,6 @@
     alpha = {
       enable = true;
       theme = "startify";
-      iconsEnabled = true;
 
     };
   };

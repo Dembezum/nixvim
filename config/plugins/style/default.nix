@@ -12,7 +12,6 @@
           "nord"
           "cyberdream"
           "dracula"
-          "ayo"
           "onedark"
           "rose-pine"
           "ayu"
@@ -51,8 +50,6 @@
 
       nord =
         lib.mkIf (config.colorschemes.selected == "nord") { enable = true; };
-
-      ayo = lib.mkIf (config.colorschemes.selected == "ayo") { enable = true; };
 
       cyberdream = lib.mkIf (config.colorschemes.selected == "cyberdream") {
         enable = true;

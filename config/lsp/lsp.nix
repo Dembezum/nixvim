@@ -23,13 +23,7 @@
         terraformls.enable = true; # Enable Terraform language server
         ansiblels.enable = true; # Enable Ansible language server
         pyright.enable = true; # Enable Python language server
-        bashls = {
-          enable = true;
-          autostart = true;
-          rootDir = "null";
-          
-
-        };
+        bashls.enable = true; # Enable Bash language server
         cssls.enable = true; # Enable CSS language server
         marksman.enable = true; # Enable Markdown language server
         zls.enable = true; # Enable Zig language server

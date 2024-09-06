@@ -28,7 +28,7 @@
           "tokyonight"
           "vscode"
         ];
-        default = "catppuccin";
+        default = "ayu";
         description = "Select the colorscheme to apply.";
       };
     };

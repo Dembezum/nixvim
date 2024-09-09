@@ -3,7 +3,7 @@
 
   colorschemes = {
     enable = true;
-    selected = "cyberdream";
+    selected = "catppuccin";
   };
 
   wrapRc = true;

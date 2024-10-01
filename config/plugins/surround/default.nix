@@ -1,11 +1,9 @@
 {
-	# surround configuration
+  # surround configuration
 
-	plugins = {
-	  surround = {
-		enable = true;
-	};
-};
+  plugins = {
+    surround = { enable = true; };
+
+  };
 
 }
-

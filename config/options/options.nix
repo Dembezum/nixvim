@@ -37,7 +37,7 @@
     smartcase = true;
     tabstop = 4;
     termguicolors = true;
-    undofile = false;
+    undofile = true;
     swapfile = false;
     wrap = true;
     clipboard = "unnamedplus";

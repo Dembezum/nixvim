@@ -24,6 +24,7 @@
     ./nvim-colorizer
     ./gitsigns
     ./surround
+    ./toggleterm
     ./telescope
     ./treesitter
     ./trouble

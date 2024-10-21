@@ -18,6 +18,7 @@
           enable = true; # Enable Nix language server
           autostart = true; # Automatically start Nix language server
         };
+        tsserver.enable = true; # Enable TypeScript language server
         jsonls.enable = true; # Enable JSON language server
         lua-ls.enable = true; # Enable Lua language server
         terraformls.enable = true; # Enable Terraform language server

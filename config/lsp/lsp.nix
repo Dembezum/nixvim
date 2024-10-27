@@ -20,6 +20,7 @@
         };
         tsserver.enable = true; # Enable TypeScript language server
         denols.enable = true; # Enable Deno language server
+        html.enable = true; # Enable HTML language server
         jsonls.enable = true; # Enable JSON language server
         lua-ls.enable = true; # Enable Lua language server
         terraformls.enable = true; # Enable Terraform language server

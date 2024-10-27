@@ -13,6 +13,7 @@
         markdownlint.enable = true;
         clang_format.enable = true;
         stylua.enable = true;
+        djlint.enable = true;
         black.enable = true;
         fantomas.enable = true;
         gleam_format.enable = true;

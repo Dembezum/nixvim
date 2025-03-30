@@ -52,24 +52,18 @@
         };
       };
     };
-    cmp-buffer = {
-      enable = true;
-      autoLoad = true;
-    };
+    cmp-buffer = { enable = true; };
     cmp-path = {
       enable = true; # file system paths
     };
     cmp_luasnip = {
       enable = true; # snippets
-      autoLoad = true;
     };
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
-      autoLoad = true;
     };
     cmp-nvim-lsp = {
       enable = true; # LSP
-      autoLoad = true;
     };
   };
 

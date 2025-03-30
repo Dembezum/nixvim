@@ -71,10 +71,6 @@
       enable = true; # LSP
       autoLoad = true;
     };
-    cmp-nvim-lsp-signature-help = {
-      enable = true;
-      autoLoad = true;
-    };
   };
 
 }

@@ -19,7 +19,7 @@
           enable = true; # Enable Nix language server
           autostart = true; # Automatically start Nix language server
         };
-        ts-ls.enable = true; # Enable TypeScript language server
+        ts_ls.enable = true; # Enable TypeScript language server
         denols.enable = true; # Enable Deno language server
         html.enable = true; # Enable HTML language server
         jsonls.enable = true; # Enable JSON language server

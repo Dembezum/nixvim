@@ -50,7 +50,7 @@
             };
           };
         };
-        rust-analyzer = {
+        rust_analyzer = {
           enable = true; # Enable Rust language server
           installRustc = true; # Install Rust compiler
           installCargo = true; # Install Cargo package manager

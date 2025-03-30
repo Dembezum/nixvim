@@ -23,7 +23,7 @@
         denols.enable = true; # Enable Deno language server
         html.enable = true; # Enable HTML language server
         jsonls.enable = true; # Enable JSON language server
-        lua-ls.enable = true; # Enable Lua language server
+        lua_ls.enable = true; # Enable Lua language server
         terraformls.enable = true; # Enable Terraform language server
         ansiblels.enable = true; # Enable Ansible language server
         pyright.enable = true; # Enable Python language server

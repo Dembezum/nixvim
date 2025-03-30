@@ -2,7 +2,6 @@
   # cmp configuration
 
   plugins = {
-    cmp-nvim-lsp-signature-help.enable = true;
     cmp = {
       enable = true;
       settings = {
@@ -54,20 +53,29 @@
         };
       };
     };
-    cmp-buffer = { enable = true; };
+    cmp-buffer = {
+      enable = true;
+      autoLoad = true;
+    };
     cmp-path = {
       enable = true; # file system paths
     };
     cmp_luasnip = {
       enable = true; # snippets
+      autoLoad = true;
     };
     cmp-cmdline = {
       enable = true; # autocomplete for cmdline
+      autoLoad = true;
     };
     cmp-nvim-lsp = {
       enable = true; # LSP
+      autoLoad = true;
     };
-
+    cmp-nvim-lsp-signature-help = {
+      enable = true;
+      autoLoad = true;
+    };
   };
 
 }

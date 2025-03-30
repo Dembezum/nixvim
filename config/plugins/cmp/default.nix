@@ -16,6 +16,7 @@
         formatting = { fields = [ "kind" "abbr" "menu" ]; };
         sources = [
           { name = "nvim_lsp"; }
+          { name = "nvim_lsp_signature_help"; }
           { name = "emoji"; }
           {
             name = "buffer"; # text within current buffer

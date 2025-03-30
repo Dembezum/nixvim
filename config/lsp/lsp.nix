@@ -9,6 +9,7 @@
     lsp-format.enable = true; # Enable automatic formatting via LSP
     lsp-lines.enable = true; # Enable inline diagnostics via LSP
     #    lsp_signature.enable = true; # Enable signature help via LSP
+    web-devicons.enable = true; # Enable web devicons
 
     # Configure LSP settings
     lsp = {
@@ -41,7 +42,7 @@
           enable = true; # Enable Helm language server
           extraOptions = {
             settings = {
-              "helm-ls" = {
+              "helm_ls" = {
                 yamlls = {
                   path =
                     "${pkgs.yaml-language-server}/bin/yaml-language-server"; # Path to YAML language server for Helm

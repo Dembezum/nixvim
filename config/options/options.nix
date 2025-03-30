@@ -32,10 +32,10 @@
     ignorecase = true;
     mouse = "a";
     shiftwidth = 4;
+    tabstop = 4;
     showtabline = 1;
     signcolumn = "yes";
     smartcase = true;
-    tabstop = 4;
     termguicolors = true;
     undofile = true;
     swapfile = false;

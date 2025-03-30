@@ -8,7 +8,7 @@
       true; # Enable Trouble plugin for better diagnostics visualization
     lsp-format.enable = true; # Enable automatic formatting via LSP
     lsp-lines.enable = true; # Enable inline diagnostics via LSP
-    lsp_signature.enable = true; # Enable signature help via LSP
+    #    lsp_signature.enable = true; # Enable signature help via LSP
 
     # Configure LSP settings
     lsp = {

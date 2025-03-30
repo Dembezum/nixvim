@@ -2,13 +2,9 @@
 
   # Enable various plugins for enhanced LSP support in Neovim
   plugins = {
-    clangd-extensions.enable =
-      true; # Enable Clangd extensions for C/C++ language support
-    trouble.enable =
-      true; # Enable Trouble plugin for better diagnostics visualization
+    clangd-extensions.enable = true;
     lsp-format.enable = true; # Enable automatic formatting via LSP
     lsp-lines.enable = true; # Enable inline diagnostics via LSP
-    #    lsp_signature.enable = true; # Enable signature help via LSP
     web-devicons.enable = true; # Enable web devicons
 
     # Configure LSP settings

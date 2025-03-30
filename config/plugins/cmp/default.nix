@@ -65,6 +65,7 @@
     cmp-nvim-lsp = {
       enable = true; # LSP
     };
+
   };
 
 }

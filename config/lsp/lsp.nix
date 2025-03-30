@@ -37,7 +37,7 @@
           enable = true; # Enable Clangd language server for C/C++
           autostart = true; # Automatically start Clangd language server
         };
-        helm-ls = {
+        helm_ls = {
           enable = true; # Enable Helm language server
           extraOptions = {
             settings = {

@@ -47,6 +47,27 @@
       options = { desc = "open terminal"; };
     }
     {
+      # Trouble qflist
+      action = "<cmd>Trouble qflist toggle<CR>";
+      key = "<space>xq"; # this line is changed
+      mode = [ "v" "n" ];
+      options = { desc = "Toggles qflist"; };
+    }
+    {
+      # Trouble symbols
+      action = "<cmd>Trouble symbols toggle<CR>";
+      key = "<space>xs"; # this line is changed
+      mode = [ "v" "n" ];
+      options = { desc = "Toggles symbols"; };
+    }
+    {
+      # Trouble diagnostics
+      action = "<cmd>Trouble diagnostics toggle<CR>";
+      key = "<space>xd"; # this line is changed
+      mode = [ "v" "n" ];
+      options = { desc = "Toggles trouble diagnostics"; };
+    }
+    {
       # running a single code using SnipRun
       action = "<cmd>SnipRun<CR>";
       key = "<space>r"; # this line is changed
@@ -92,12 +113,6 @@
       action = "<cmd>Neorg<CR>";
       key = "<leader>o";
       options = { desc = "opening neorg with telesope"; };
-    }
-    {
-      action = "<cmd>!chmod +x %<CR>";
-      key = "<leader>x";
-      mode = "n";
-      options = { desc = "Make this executable"; };
     }
     {
       action = ":m '>+1<CR>gv=gv";

@@ -54,6 +54,13 @@
       options = { desc = "Toggles qflist"; };
     }
     {
+      # Trouble refs
+      action = "<cmd>Trouble lsp_references toggle<CR>";
+      key = "<space>xr"; # this line is changed
+      mode = [ "v" "n" ];
+      options = { desc = "Toggles references"; };
+    }
+    {
       # Trouble symbols
       action = "<cmd>Trouble symbols toggle<CR>";
       key = "<space>xs"; # this line is changed

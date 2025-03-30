@@ -1,11 +1,11 @@
 {
-	# nvim-colorizer configuration
+  # colorizer configuration
 
-	plugins = {
-	  nvim-colorizer = {
-		enable = true;
-	};
-};
+  plugins = {
+    colorizer = {
+      enable = true;
+
+    };
+  };
 
 }
-

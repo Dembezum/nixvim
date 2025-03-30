@@ -14,7 +14,7 @@
           "." = false;
         };
       };
-      enable = true;
+      enable = false;
     };
     copilot-chat = { enable = true; };
   };

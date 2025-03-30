@@ -1,11 +1,15 @@
-{ pkgs, ... }: {
+{
 
   # Enable various plugins for enhanced LSP support in Neovim
   plugins = {
     clangd-extensions.enable = true;
     lsp-format.enable = true; # Enable automatic formatting via LSP
-    lsp-lines.enable = true; # Enable inline diagnostics via LSP
     web-devicons.enable = true; # Enable web devicons
+    lsp-lines.enable = true; # Enable inline diagnostics via LSP
+    lsp-signature = {
+      enable = true;
+      autoLoad = true;
+    };
 
     # Configure LSP settings
     lsp = {
@@ -25,7 +29,10 @@
         ansiblels.enable = true; # Enable Ansible language server
         pyright.enable = true; # Enable Python language server
         bashls.enable = true; # Enable Bash language server
-        yamlls.enable = true; # Enable Bash language server
+        yamlls = {
+          enable = true;
+          filetypes = [ "yaml" "yml" ];
+        };
         docker_compose_language_service.enable = true;
         cssls.enable = true; # Enable CSS language server
         marksman.enable = true; # Enable Markdown language server
@@ -35,17 +42,8 @@
           autostart = true; # Automatically start Clangd language server
         };
         helm_ls = {
-          enable = true; # Enable Helm language server
-          extraOptions = {
-            settings = {
-              "helm_ls" = {
-                yamlls = {
-                  path =
-                    "${pkgs.yaml-language-server}/bin/yaml-language-server"; # Path to YAML language server for Helm
-                };
-              };
-            };
-          };
+          enable = true;
+          filetypes = [ "helm" ];
         };
         rust_analyzer = {
           enable = true; # Enable Rust language server

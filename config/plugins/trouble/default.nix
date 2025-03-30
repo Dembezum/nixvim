@@ -4,6 +4,7 @@
 	plugins = {
 	  trouble = {
 		enable = true;
+
 	};
 };
 

@@ -32,5 +32,6 @@
     ./undotree
     ./vim-css-color
     ./which-key
+    ./yazi
   ];
 }

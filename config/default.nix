@@ -1,1 +1,9 @@
-{ imports = [ ./plugins ./options ./keymaps ./lsp ]; }
+{
+  imports = [
+    ./plugins
+    ./options
+    ./keymaps
+    ./lsp
+
+  ];
+}

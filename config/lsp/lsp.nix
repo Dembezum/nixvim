@@ -5,7 +5,16 @@
     clangd-extensions.enable = true;
     lsp-format.enable = true; # Enable automatic formatting via LSP
     web-devicons.enable = true; # Enable web devicons
-    lsp-lines.enable = true; # Enable inline diagnostics via LSP
+    lsp-signature = {
+      enable = true;
+      autoLoad = true;
+
+    };
+    lsp-lines = {
+      enable = true; # Enable inline diagnostics via LSP
+      autoLoad = true;
+
+    };
 
     # Configure LSP settings
     lsp = {
@@ -36,7 +45,7 @@
         zls.enable = true; # Enable Zig language server
         clangd = {
           enable = true; # Enable Clangd language server for C/C++
-          autoart = true; # Automatically start Clangd language server
+          autostart = true; # Automatically start Clangd language server
         };
         helm_ls = {
           enable = true;

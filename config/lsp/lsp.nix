@@ -17,6 +17,7 @@
           autostart = true; # Automatically start Nix language server
         };
         ts_ls.enable = true; # Enable TypeScript language server
+        gopls.enable = true; # Enable GO LSP
         denols.enable = true; # Enable Deno language server
         html.enable = true; # Enable HTML language server
         jsonls.enable = true; # Enable JSON language server
@@ -35,7 +36,7 @@
         zls.enable = true; # Enable Zig language server
         clangd = {
           enable = true; # Enable Clangd language server for C/C++
-          autostart = true; # Automatically start Clangd language server
+          autoart = true; # Automatically start Clangd language server
         };
         helm_ls = {
           enable = true;

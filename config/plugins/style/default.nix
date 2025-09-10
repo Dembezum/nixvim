@@ -36,6 +36,7 @@
 
   config = lib.mkIf config.colorschemes.enable {
     colorschemes = {
+
       catppuccin = lib.mkIf (config.colorschemes.selected == "catppuccin") {
         enable = true;
         settings = {

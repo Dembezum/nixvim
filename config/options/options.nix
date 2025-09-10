@@ -3,7 +3,12 @@
 
   colorschemes = {
     enable = true;
-    selected = "cyberdream";
+    selected = [
+      "cyberdream"
+      "catppuccin"
+      "rose-pine"
+
+    ];
   };
 
   wrapRc = true;
@@ -41,7 +46,7 @@
     swapfile = false;
     wrap = true;
     clipboard = "unnamedplus";
-    scrolloff = 10;
+    scrolloff = 30;
     virtualedit = "block";
     inccommand = "split";
   };

@@ -157,5 +157,11 @@
       mode = "n";
       options = { desc = "Start Markdown Preview"; };
     }
+    {
+      action = ":Yazi<CR>";
+      key = "<leader>sy";
+      mode = "n";
+      options = { desc = "Start Yazi"; };
+    }
   ];
 }

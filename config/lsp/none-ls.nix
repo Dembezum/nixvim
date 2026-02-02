@@ -16,7 +16,6 @@
         djlint.enable = true;
         stylelint.enable = true;
         black.enable = true;
-        fantomas.enable = true;
         gleam_format.enable = true;
         gofmt.enable = true;
         goimports.enable = true;

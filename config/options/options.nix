@@ -46,10 +46,10 @@
     inccommand = "split";
   };
 
-  diagnostics = {
-    virtual_text = true;
-    virtual_lines = true;
-  };
+  # diagnostics = {
+  #   virtual_text = true;
+  #   virtual_lines = true;
+  # };
 
   extraPlugins = with pkgs.vimPlugins; [
     neoformat

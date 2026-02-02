@@ -41,7 +41,6 @@
         };
         docker_compose_language_service.enable = true;
         cssls.enable = true; # Enable CSS language server
-        marksman.enable = true; # Enable Markdown language server
         zls.enable = true; # Enable Zig language server
         clangd = {
           enable = true; # Enable Clangd language server for C/C++

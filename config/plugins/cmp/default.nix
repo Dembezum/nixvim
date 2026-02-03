@@ -17,7 +17,7 @@ in
 {
   plugins = {
     cmp = {
-      enable = false;
+      enable = true;
       autoEnableSources = true;
       settings = {
         mapping = {

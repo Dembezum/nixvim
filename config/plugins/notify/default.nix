@@ -1,11 +1,11 @@
 {
-	# notify configuration
+  # notify configuration
 
-	plugins = {
-	  notify = {
-		enable = true;
-	};
-};
+  plugins = {
+    notify = {
+      enable = true;
+      transparency = false;
+    };
+  };
 
 }
-

@@ -10,158 +10,242 @@
       action = "nzzzv";
       key = "n";
       mode = "n";
-      options = { desc = "Next search result and center"; };
+      options = {
+        desc = "Next search result and center";
+      };
     }
     {
       action = "Nzzzv";
       key = "N";
       mode = "n";
-      options = { desc = "Previous search result and center"; };
+      options = {
+        desc = "Previous search result and center";
+      };
     }
     {
       # Neotree
       action = "<cmd>Neotree toggle<CR>";
       key = "<space>n"; # this line is changed
       mode = "n";
-      options = { desc = "Toggle Tree View."; };
+      options = {
+        desc = "Toggle Tree View.";
+      };
     }
     {
       #info
       action = "<cmd>lua vim.lsp.buf.hover()<CR>";
       key = "<space>k"; # this line is changed
       mode = "n";
-      options = { desc = "info about things"; };
+      options = {
+        desc = "info about things";
+      };
     }
     {
       # Neoformat
       action = "<cmd>Neoformat<CR>";
       key = "<space>="; # this line is changed
       mode = [ "n" ];
-      options = { desc = "formatting"; };
+      options = {
+        desc = "formatting";
+      };
     }
     {
       #opening a terminal in neovim
       action = "<cmd>ToggleTerm<CR>";
       key = "<space>t"; # this line is changed
       mode = [ "n" ];
-      options = { desc = "open terminal"; };
+      options = {
+        desc = "open terminal";
+      };
     }
     {
       # Trouble qflist
       action = "<cmd>Trouble qflist toggle<CR>";
       key = "<space>xq"; # this line is changed
-      mode = [ "v" "n" ];
-      options = { desc = "Toggles qflist"; };
+      mode = [
+        "v"
+        "n"
+      ];
+      options = {
+        desc = "Toggles qflist";
+      };
     }
     {
       # Trouble refs
       action = "<cmd>Trouble lsp_references toggle<CR>";
       key = "<space>xr"; # this line is changed
-      mode = [ "v" "n" ];
-      options = { desc = "Toggles references"; };
+      mode = [
+        "v"
+        "n"
+      ];
+      options = {
+        desc = "Toggles references";
+      };
     }
     {
       # Trouble symbols
       action = "<cmd>Trouble symbols toggle<CR>";
       key = "<space>xs"; # this line is changed
-      mode = [ "v" "n" ];
-      options = { desc = "Toggles symbols"; };
+      mode = [
+        "v"
+        "n"
+      ];
+      options = {
+        desc = "Toggles symbols";
+      };
     }
     {
       # Trouble diagnostics
       action = "<cmd>Trouble diagnostics toggle<CR>";
       key = "<space>xd"; # this line is changed
-      mode = [ "v" "n" ];
-      options = { desc = "Toggles trouble diagnostics"; };
+      mode = [
+        "v"
+        "n"
+      ];
+      options = {
+        desc = "Toggles trouble diagnostics";
+      };
+    }
+    {
+      # diagnostics virtual text
+      action = "<cmd>lua vim.diagnostic.config({virtual_text=true})<CR>";
+      key = "<space>de";
+      mode = [ "n" ];
+      options = {
+        desc = "Enable diagnostics";
+      };
+    }
+    {
+      action = "<cme>lua vim.diagnostic.config({virtual_text=false})<CR>";
+      key = "<space>dd";
+      mode = [ "n" ];
+      options = {
+        desc = "Disable diagnostics";
+      };
     }
     {
       # running a single code using SnipRun
       action = "<cmd>SnipRun<CR>";
       key = "<space>r"; # this line is changed
-      mode = [ "v" "n" ];
-      options = { desc = "run's the selected code"; };
+      mode = [
+        "v"
+        "n"
+      ];
+      options = {
+        desc = "run's the selected code";
+      };
     }
     {
       action = "<cmd>write<CR>";
       key = "<leader>w";
-      options = { desc = "write file"; };
+      options = {
+        desc = "write file";
+      };
     }
     {
       action = "<cmd>quit<CR>";
       key = "<leader>q";
-      options = { desc = "exit file"; };
+      options = {
+        desc = "exit file";
+      };
     }
     {
       action = "<cmd>Telescope live_grep<CR>";
       key = "<leader>ps";
-      options = { desc = "telescope live_grep"; };
+      options = {
+        desc = "telescope live_grep";
+      };
     }
     {
       action = "<cmd>Telescope find_files<CR>";
       key = "<leader>pf";
-      options = { desc = "telescope file finding"; };
+      options = {
+        desc = "telescope file finding";
+      };
     }
     {
       action = "<cmd>Telescope buffers<CR>";
       key = "<leader>pg";
-      options = { desc = "telescope buffer finding"; };
+      options = {
+        desc = "telescope buffer finding";
+      };
     }
     {
       action = "<cmd>Telescope file_browser <CR>";
       key = "<leader>fb";
-      options = { desc = "telescope file browsing"; };
+      options = {
+        desc = "telescope file browsing";
+      };
     }
     {
       action = "<cmd>bd#<CR>";
       key = "<leader>cb";
-      options = { desc = "killing opened output buffer"; };
+      options = {
+        desc = "killing opened output buffer";
+      };
     }
     {
       action = "<cmd>Neorg<CR>";
       key = "<leader>o";
-      options = { desc = "opening neorg with telesope"; };
+      options = {
+        desc = "opening neorg with telesope";
+      };
     }
     {
       action = ":m '>+1<CR>gv=gv";
       key = "J";
       mode = "v";
-      options = { desc = "Move selected text down"; };
+      options = {
+        desc = "Move selected text down";
+      };
     }
     {
       action = ":m '<-2<CR>gv=gv";
       key = "K";
       mode = "v";
-      options = { desc = "Move selected text up"; };
+      options = {
+        desc = "Move selected text up";
+      };
     }
     {
       action = ":BufferLineCyclePrev<CR>";
       key = "<leader>,";
       mode = "n";
-      options = { desc = "Buffer Previous"; };
+      options = {
+        desc = "Buffer Previous";
+      };
     }
     {
       action = ":BufferLineCycleNext<CR>";
       key = "<leader>.";
       mode = "n";
-      options = { desc = "Buffer Next"; };
+      options = {
+        desc = "Buffer Next";
+      };
     }
     {
       action = ":MarkdownPreviewToggle<CR>";
       key = "<leader>mdt";
       mode = "n";
-      options = { desc = "Toggle Markdown Preview"; };
+      options = {
+        desc = "Toggle Markdown Preview";
+      };
     }
     {
       action = ":MarkdownPreview<CR>";
       key = "<leader>md";
       mode = "n";
-      options = { desc = "Start Markdown Preview"; };
+      options = {
+        desc = "Start Markdown Preview";
+      };
     }
     {
       action = ":Yazi<CR>";
       key = "<leader>sy";
       mode = "n";
-      options = { desc = "Start Yazi"; };
+      options = {
+        desc = "Start Yazi";
+      };
     }
   ];
 }

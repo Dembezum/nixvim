@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   imports = [ ../plugins/style ];
 
   colorschemes = {
@@ -46,10 +47,10 @@
     inccommand = "split";
   };
 
-  # diagnostics = {
-  #   virtual_text = true;
-  #   virtual_lines = true;
-  # };
+  diagnostics = {
+    virtual_text = true;
+    virtual_lines = true;
+  };
 
   extraPlugins = with pkgs.vimPlugins; [
     neoformat
@@ -67,11 +68,13 @@
   #   ''
   #   '';
 
-  autoCmd = [{
-    event = [ "TermOpen" ];
-    pattern = [ "*" ];
-    command = "startinsert";
-  }];
+  autoCmd = [
+    {
+      event = [ "TermOpen" ];
+      pattern = [ "*" ];
+      command = "startinsert";
+    }
+  ];
 
   extraConfigVim = ''
     " Associate .cisco files with the cisco filetype

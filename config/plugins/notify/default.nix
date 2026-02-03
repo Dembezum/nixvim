@@ -4,7 +4,6 @@
   plugins = {
     notify = {
       enable = true;
-      transparency = false;
     };
   };
 

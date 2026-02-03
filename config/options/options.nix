@@ -13,8 +13,8 @@
   #    # transparentBackground = true;
   #  };
   opts = {
-    number = true; # Show line numbers
-    relativenumber = true; # Show relative line numbers
+    number = true;
+    relativenumber = true;
     autoindent = true;
     smartindent = true;
     backspace = "indent,eol,start";

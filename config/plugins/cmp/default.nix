@@ -59,13 +59,6 @@ in
             };
           }
           {
-            name = "gitlab";
-            priority = 1000;
-            option = {
-              hosts = [ "https://gitlab.dnm.radiofrance.fr" ];
-            };
-          }
-          {
             name = "nvim_lsp_document_symbol";
             priority = 1000;
             option = {

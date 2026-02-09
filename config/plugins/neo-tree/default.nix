@@ -4,7 +4,11 @@
   plugins = {
     neo-tree = {
       enable = true;
-      lazyLoad.enable = true;
+      lazyLoad = {
+        enable = true;
+        cmd = [ "Neotree" ];
+
+      };
     };
   };
 

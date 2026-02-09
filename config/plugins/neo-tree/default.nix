@@ -6,7 +6,7 @@
       enable = true;
       lazyLoad = {
         enable = true;
-        cmd = [ "Neotree" ];
+        settings.cmd = [ "Neotree" ];
 
       };
     };

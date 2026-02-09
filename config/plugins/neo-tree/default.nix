@@ -1,11 +1,11 @@
 {
-	# neo-tree configuration
+  # neo-tree configuration
 
-	plugins = {
-	  neo-tree = {
-		enable = true;
-	};
-};
+  plugins = {
+    neo-tree = {
+      enable = true;
+      lazyLoad.cmd = [ "Neotree" ];
+    };
+  };
 
 }
-

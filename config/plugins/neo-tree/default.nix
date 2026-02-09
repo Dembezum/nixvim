@@ -4,11 +4,6 @@
   plugins = {
     neo-tree = {
       enable = true;
-      lazyLoad = {
-        enable = true;
-        settings.cmd = [ "Neotree" ];
-
-      };
     };
   };
 

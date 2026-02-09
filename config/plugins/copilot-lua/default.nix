@@ -11,11 +11,14 @@
           yaml = true;
           zig = true;
           nix = true;
+          go = true;
           "." = false;
         };
       };
-      enable = false;
+      enable = true;
     };
-    copilot-chat = { enable = true; };
+    copilot-chat = {
+      enable = true;
+    };
   };
 }

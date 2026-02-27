@@ -42,7 +42,7 @@
     swapfile = false;
     wrap = true;
     clipboard = "unnamedplus";
-    scrolloff = 30;
+    scrolloff = 7;
     virtualedit = "block";
     inccommand = "split";
     # diagnostics = {

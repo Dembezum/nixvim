@@ -16,6 +16,8 @@
     require("screenkey").setup({
       win_opts = {
         anchor = "NE",
+        width = 40,
+        height = 1,
         border = "rounded",
         style = "minimal",
       },

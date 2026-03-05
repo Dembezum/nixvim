@@ -16,10 +16,10 @@
     require("screenkey").setup({
       win_opts = {
         relative = "editor",
-        anchor = "SE",
+        anchor = "NE",
         width = 40,
         height = 1,
-        row = -2,
+        row = 2,
         col = -2,
         border = "rounded",
         style = "minimal",

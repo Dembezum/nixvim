@@ -17,10 +17,10 @@
       win_opts = {
         relative = "editor",
         anchor = "NE",
+        row = 0,
+        col = 0,
         width = 40,
         height = 1,
-        row = 2,
-        col = -2,
         border = "rounded",
         style = "minimal",
       },

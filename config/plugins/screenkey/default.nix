@@ -15,12 +15,7 @@
   extraConfigLua = ''
     require("screenkey").setup({
       win_opts = {
-        relative = "editor",
         anchor = "NE",
-        row = 0,
-        col = 0,
-        width = 40,
-        height = 1,
         border = "rounded",
         style = "minimal",
       },

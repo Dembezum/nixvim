@@ -7,7 +7,7 @@
         owner = "NStefan002";
         repo = "screenkey.nvim";
         rev = "main";
-        sha256 = "0000000000000000000000000000000000000000000000000000"; # Replace after build
+        sha256 = "PqlzJ9m7lxrOI8YuykYqpTWMUdjjlkhj7J2nM/waz84=";
       };
     })
   ];

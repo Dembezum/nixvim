@@ -11,13 +11,11 @@
     ./copilot-lua
     ./diffview
     ./friendly-snippets
-    ./harpoon
     ./indent-blankline
     ./lualine
     ./luasnip
     ./markdown-preview
     ./neo-tree
-    #./neorg
     ./nix
     ./notify
     ./nvim-autopairs
@@ -28,10 +26,10 @@
     ./telescope
     ./treesitter
     ./trouble
-    ./twilight
     ./undotree
     ./vim-css-color
     ./which-key
     ./yazi
+    ./screenkey
   ];
 }

@@ -24,8 +24,6 @@
         border = "rounded",
         style = "minimal",
       },
-      show_in_insert = true,
-      show_in_cmd = true,
     })
   '';
 }

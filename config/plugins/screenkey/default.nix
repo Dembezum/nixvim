@@ -1,7 +1,15 @@
 { pkgs, ... }:
 {
   extraPlugins = [
-    pkgs.vimPlugins.screenkey-nvim
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "screenkey.nvim";
+      src = pkgs.fetchFromGitHub {
+        owner = "NStefan002";
+        repo = "screenkey.nvim";
+        rev = "main";
+        sha256 = "0000000000000000000000000000000000000000000000000000"; # Replace after build
+      };
+    })
   ];
 
   extraConfigLua = ''

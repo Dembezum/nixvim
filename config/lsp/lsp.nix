@@ -35,11 +35,11 @@
         };
 
         # Rust
-        rust_analyzer = {
-          enable = true;
-          installRustc = true;
-          installCargo = true;
-        };
+        # rust_analyzer = {
+        #   enable = true;
+        #   installRustc = true;
+        #   installCargo = true;
+        # };
 
         # Spellcheck
         harper_ls = {

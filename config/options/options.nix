@@ -4,7 +4,7 @@
 
   colorschemes = {
     enable = true;
-    selected = "rose-pine";
+    selected = "cyberdream";
   };
 
   wrapRc = true;

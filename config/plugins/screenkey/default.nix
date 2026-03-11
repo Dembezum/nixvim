@@ -15,7 +15,7 @@
   extraConfigLua = ''
     require("screenkey").setup({
       win_opts = {
-        anchor = "NE",
+        anchor = "NW",
         width = 40,
         height = 1,
         border = "rounded",

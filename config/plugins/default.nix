@@ -5,11 +5,11 @@
     ./lazygit
     ./bufferline
     ./style
-    ./clangd-extensions
+    # ./clangd-extensions
     ./cmp
     ./comment
     ./copilot-lua
-    ./diffview
+    # ./diffview
     ./friendly-snippets
     ./indent-blankline
     ./lualine

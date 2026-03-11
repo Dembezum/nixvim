@@ -23,7 +23,8 @@
     colorcolumn = "80";
     cursorline = true;
     expandtab = true;
-    updatetime = 100;
+    timeoutlen = 500;
+    updatetime = 300;
     foldenable = false;
     splitbelow = true;
     splitright = true;

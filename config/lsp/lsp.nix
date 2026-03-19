@@ -3,7 +3,6 @@
   plugins = {
     lsp-format = {
       enable = true;
-    web-devicons.enable = true;
     };
     lsp = {
       enable = true;

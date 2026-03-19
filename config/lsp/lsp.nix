@@ -1,9 +1,9 @@
 { lib, pkgs, ... }:
 {
   plugins = {
+    web.devicons.enable = true;
     lsp-format = {
       enable = true;
-      mini-icons = true;
     };
     lsp = {
       enable = true;

@@ -3,6 +3,7 @@
   plugins = {
     lsp-format = {
       enable = true;
+      mini-icons = true;
     };
     lsp = {
       enable = true;

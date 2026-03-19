@@ -3,6 +3,7 @@
   plugins = {
     lsp-format = {
       enable = true;
+    web-devicons.enable = true;
     };
     lsp = {
       enable = true;
@@ -170,7 +171,6 @@
 #   plugins = {
 #     clangd-extensions.enable = true;
 #     lsp-format.enable = true; # Enable automatic formatting via LSP
-#     web-devicons.enable = true; # Enable web devicons
 #     csvview.enable = true;
 #     lsp-signature = {
 #       enable = true;

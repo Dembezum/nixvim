@@ -1,7 +1,7 @@
 { lib, pkgs, ... }:
 {
   plugins = {
-    web.devicons.enable = true;
+    web-devicons.enable = true;
     lsp-format = {
       enable = true;
     };

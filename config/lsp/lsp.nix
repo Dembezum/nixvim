@@ -29,6 +29,10 @@
           autostart = true;
         };
 
+        astro = {
+          enable = true;
+        };
+
         # Lua
         lua_ls = {
           enable = true;

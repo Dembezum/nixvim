@@ -6,7 +6,7 @@
       diagnostics = {
         golangci_lint.enable = true;
         ktlint.enable = true;
-        statix.enable = true;
+        # statix.enable = true;
       };
       formatting = {
         nixfmt.enable = true;

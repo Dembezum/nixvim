@@ -17,7 +17,7 @@
     ./markdown-preview
     ./neo-tree
     ./nix
-    ./notify
+    # ./notify
     ./nvim-autopairs
     ./nvim-colorizer
     ./gitsigns

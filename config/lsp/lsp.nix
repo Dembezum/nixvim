@@ -2,16 +2,14 @@
 {
   plugins = {
     web-devicons.enable = true;
-    lsp-format = {
-      enable = true;
-    };
+    lsp-format.enable = true;
     lsp = {
       enable = true;
       inlayHints = true;
       servers = {
         nixd = {
-          enable = true; # Enable Nix language server
-          autostart = true; # Automatically start Nix language server
+          enable = true;
+          autostart = true;
         };
         yamlls = {
           enable = true;

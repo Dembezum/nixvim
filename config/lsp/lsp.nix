@@ -29,9 +29,9 @@
           autostart = true;
         };
 
-        astro = {
-          enable = true;
-        };
+        # astro = {
+        #   enable = true;
+        # };
 
         # Lua
         lua_ls = {
@@ -65,7 +65,7 @@
           };
         };
 
-        ts_ls.enable = true; # TS/JS
+        # ts_ls.enable = true; # TS/JS
         cssls.enable = true; # CSS
         tailwindcss.enable = true; # TailwindCSS
         html.enable = true; # HTML

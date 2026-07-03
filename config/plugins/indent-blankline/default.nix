@@ -23,7 +23,7 @@
             "trouble"
             "lazy"
             "mason"
-            "notify"
+            # "notify"
             "toggleterm"
             "lazyterm"
           ];

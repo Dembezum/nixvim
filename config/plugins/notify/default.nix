@@ -3,7 +3,7 @@
 
   plugins = {
     notify = {
-      enable = true;
+      enable = false;
     };
   };
 
